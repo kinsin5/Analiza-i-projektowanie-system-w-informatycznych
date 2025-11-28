@@ -353,16 +353,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-133" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Monitoring" vertex="1">
-          <mxGeometry height="86" width="160" x="2110" y="470" as="geometry" />
+          <mxGeometry height="200" width="340" x="2100" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-134" parent="DCx-GXpav3NQqXiR3cCd-133" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
-          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        <mxCell id="DCx-GXpav3NQqXiR3cCd-134" parent="DCx-GXpav3NQqXiR3cCd-133" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ logId: int&lt;div&gt;+ timestamp: DateTime&lt;/div&gt;&lt;div&gt;+ eventType: String&lt;/div&gt;&lt;div&gt;+ details: String&lt;/div&gt;&lt;div&gt;+ user: User&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="340" y="26" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-135" parent="DCx-GXpav3NQqXiR3cCd-133" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="52" as="geometry" />
+          <mxGeometry height="8" width="340" y="110" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-136" parent="DCx-GXpav3NQqXiR3cCd-133" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        <mxCell id="DCx-GXpav3NQqXiR3cCd-136" parent="DCx-GXpav3NQqXiR3cCd-133" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ logLoginAttempt(user: User, success: boolean): void&lt;div&gt;+ logPayment(payment: Payments): void&lt;/div&gt;&lt;div&gt;+ logError(message: String): void&lt;/div&gt;&lt;div&gt;+ getUserActivity(user: User): List&amp;lt;Monitoring&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="340" y="118" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-137" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="UserManagment" vertex="1">
           <mxGeometry height="140" width="200" x="2720" y="360" as="geometry" />
@@ -377,7 +377,7 @@
           <mxGeometry height="80" width="200" y="60" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-147" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Content" vertex="1">
-          <mxGeometry height="86" width="160" x="2290" y="470" as="geometry" />
+          <mxGeometry height="86" width="160" x="2720" y="510" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-148" parent="DCx-GXpav3NQqXiR3cCd-147" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -389,16 +389,16 @@
           <mxGeometry height="26" width="160" y="60" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-152" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Security" vertex="1">
-          <mxGeometry height="86" width="160" x="1920" y="474" as="geometry" />
+          <mxGeometry height="200" width="360" x="1720" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-153" parent="DCx-GXpav3NQqXiR3cCd-152" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
-          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        <mxCell id="DCx-GXpav3NQqXiR3cCd-153" parent="DCx-GXpav3NQqXiR3cCd-152" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ failedLoginAttempts: int&lt;div&gt;+ isLocked: boolean&lt;/div&gt;&lt;div&gt;+ lastLoginIp: String&lt;/div&gt;&lt;div&gt;+ lastLoginDate: DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="360" y="26" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-154" parent="DCx-GXpav3NQqXiR3cCd-152" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="52" as="geometry" />
+          <mxGeometry height="8" width="360" y="100" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-155" parent="DCx-GXpav3NQqXiR3cCd-152" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        <mxCell id="DCx-GXpav3NQqXiR3cCd-155" parent="DCx-GXpav3NQqXiR3cCd-152" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ hashPassword(password: String): String&lt;div&gt;+ validatePassword(password: String, hash: String): boolean&lt;/div&gt;&lt;div&gt;+ validateTwoFactor(user: User, code: String): boolean&lt;/div&gt;&lt;div&gt;+ lockAccount(user: User): void&lt;/div&gt;&lt;div&gt;+ unlockAccount(user: User): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="360" y="108" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-177" edge="1" parent="1" source="H1aidF0pDs1sOe39sUyR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="H1aidF0pDs1sOe39sUyR-6">
           <mxGeometry relative="1" as="geometry">
