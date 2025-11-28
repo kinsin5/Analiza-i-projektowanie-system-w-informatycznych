@@ -428,7 +428,7 @@
           <mxGeometry height="92" width="270" y="138" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-190" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Admin Notifications" vertex="1">
-          <mxGeometry height="200" width="250" x="2370" y="84" as="geometry" />
+          <mxGeometry height="190" width="250" x="2370" y="84" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-191" parent="DCx-GXpav3NQqXiR3cCd-190" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ adminNotifications: int&lt;div&gt;+ title: String&lt;/div&gt;&lt;div&gt;+ message: String&lt;/div&gt;&lt;div&gt;+ createAt: DateTime&lt;/div&gt;&lt;div&gt;+ isActive: boolean&lt;/div&gt;" vertex="1">
           <mxGeometry height="94" width="250" y="26" as="geometry" />
@@ -436,8 +436,8 @@
         <mxCell id="DCx-GXpav3NQqXiR3cCd-192" parent="DCx-GXpav3NQqXiR3cCd-190" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="250" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-193" parent="DCx-GXpav3NQqXiR3cCd-190" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ createSystemNotification(): void&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="72" width="250" y="128" as="geometry" />
+        <mxCell id="DCx-GXpav3NQqXiR3cCd-193" parent="DCx-GXpav3NQqXiR3cCd-190" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ createSystemNotification(): void&lt;div&gt;+ sendToAllUsers(): void&lt;/div&gt;&lt;div&gt;+ deleteNotification(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="250" y="128" as="geometry" />
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-195" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1" value="Suby Centralnie Rozbic" vertex="1">
           <mxGeometry height="100" width="130" x="1510" y="840" as="geometry" />
