@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36 Edg/142.0.0.0" version="29.2.1">
   <diagram name="Strona-1" id="rcRYaHYuYlILn7iZVmCg">
-    <mxGraphModel dx="2058" dy="1116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="823" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,18 +281,6 @@
         <mxCell id="DCx-GXpav3NQqXiR3cCd-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Zaleznosci miedzy klasami - mniej wazne&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Agregacje spoko&lt;/div&gt;&lt;div&gt;Dziedziczenie - must have&lt;/div&gt;" vertex="1">
           <mxGeometry height="250" width="200" x="1120" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Logged User" vertex="1">
-          <mxGeometry height="86" width="160" x="2220" y="1230" as="geometry" />
-        </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-22" parent="DCx-GXpav3NQqXiR3cCd-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
-          <mxGeometry height="26" width="160" y="26" as="geometry" />
-        </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-23" parent="DCx-GXpav3NQqXiR3cCd-21" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="160" y="52" as="geometry" />
-        </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-24" parent="DCx-GXpav3NQqXiR3cCd-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
-          <mxGeometry height="26" width="160" y="60" as="geometry" />
-        </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-194" edge="1" parent="1" source="H1aidF0pDs1sOe39sUyR-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.504;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="H1aidF0pDs1sOe39sUyR-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2360" y="732" as="sourcePoint" />
@@ -496,13 +484,14 @@
         <mxCell id="DCx-GXpav3NQqXiR3cCd-155" parent="DCx-GXpav3NQqXiR3cCd-152" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
           <mxGeometry height="26" width="160" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="DCx-GXpav3NQqXiR3cCd-177" edge="1" parent="1" source="DCx-GXpav3NQqXiR3cCd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.521;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" target="H1aidF0pDs1sOe39sUyR-9">
+        <mxCell id="DCx-GXpav3NQqXiR3cCd-177" edge="1" parent="1" source="H1aidF0pDs1sOe39sUyR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="H1aidF0pDs1sOe39sUyR-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2300" y="1160" />
-              <mxPoint x="2362" y="1160" />
+              <mxPoint x="2355" y="1170" />
+              <mxPoint x="2355" y="1170" />
             </Array>
-            <mxPoint x="2360.4799999999996" y="954.5839999999998" as="targetPoint" />
+            <mxPoint x="2370" y="1210" as="sourcePoint" />
+            <mxPoint x="2400" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DCx-GXpav3NQqXiR3cCd-178" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="DCx-GXpav3NQqXiR3cCd-40">
@@ -575,6 +564,18 @@
         </mxCell>
         <mxCell id="H1aidF0pDs1sOe39sUyR-9" parent="H1aidF0pDs1sOe39sUyR-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ register(email: String, password: String): void&lt;/div&gt;&lt;div&gt;+ login(password: String, code2FA: String): boolean&lt;/div&gt;&lt;div&gt;+ logout(): void&lt;/div&gt;&lt;div&gt;+ enableTwoFactor(secret: String): void&lt;/div&gt;&lt;div&gt;+ calculateMonthlyCost(): decimal&lt;/div&gt;&lt;div&gt;+ getSubscriptions(): List&amp;lt;Subscription&amp;gt;&lt;/div&gt;+ getForm()&lt;div&gt;+ loadLandingPage()&lt;/div&gt;" vertex="1">
           <mxGeometry height="142" width="330" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="H1aidF0pDs1sOe39sUyR-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="LoggedUser" vertex="1">
+          <mxGeometry height="170" width="215" x="2247.5" y="1193.5" as="geometry" />
+        </mxCell>
+        <mxCell id="H1aidF0pDs1sOe39sUyR-11" parent="H1aidF0pDs1sOe39sUyR-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ sessionId: String&lt;div&gt;+ cookieId: String&lt;/div&gt;&lt;div&gt;+ loginTime: DateTime&lt;/div&gt;&lt;div&gt;+ lastActivity: DateTime&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="215" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="H1aidF0pDs1sOe39sUyR-12" parent="H1aidF0pDs1sOe39sUyR-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="215" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="H1aidF0pDs1sOe39sUyR-13" parent="H1aidF0pDs1sOe39sUyR-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ isSessionActive(): boolean&lt;div&gt;+ refreshSession(): void&lt;/div&gt;&lt;div&gt;+ invalidateSession(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="215" y="108" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
