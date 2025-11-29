@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Strona-1" id="JiKPavWrz_IBVfGSq2Sb">
-    <mxGraphModel dx="709" dy="415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1206" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -936,8 +936,8 @@
             <mxPoint x="621" y="3042" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RIZfZns36iC6wYRXqtyi-357" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":Object" vertex="1">
-          <mxGeometry height="300" width="100" x="2895" y="220" as="geometry" />
+        <mxCell id="RIZfZns36iC6wYRXqtyi-357" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":User" vertex="1">
+          <mxGeometry height="300" width="100" x="2930" y="140" as="geometry" />
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-358" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
           <mxGeometry height="300" width="20" x="2800" y="140" as="geometry" />
