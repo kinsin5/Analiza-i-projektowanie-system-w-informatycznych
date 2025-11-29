@@ -1775,12 +1775,6 @@
             <mxPoint x="3430" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v4ep8orMs9STYvKT7U5V-199" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
-          <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="3209.630434782609" y="530" as="sourcePoint" />
-            <mxPoint x="3429.5" y="530" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-383" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Zaloguj" vertex="1">
           <mxGeometry height="40" width="165" x="3230" y="485" as="geometry" />
         </mxCell>
@@ -1788,6 +1782,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="3209.5" y="585" as="sourcePoint" />
             <mxPoint x="2970" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-387" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Wprowadź login i hasło" vertex="1">
+          <mxGeometry height="30" width="120" x="2834" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-388" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="2810" y="660" as="sourcePoint" />
+            <mxPoint x="2980" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
