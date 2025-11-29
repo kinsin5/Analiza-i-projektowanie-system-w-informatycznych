@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Strona-1" id="JiKPavWrz_IBVfGSq2Sb">
-    <mxGraphModel dx="1196" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RIZfZns36iC6wYRXqtyi-389" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" value="" vertex="1">
+          <mxGeometry height="715" width="940" x="2730" y="55" as="geometry" />
+        </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-1" parent="1" style="swimlane;whiteSpace=wrap" value="Zarządzanie subskrypcjami" vertex="1">
           <mxGeometry height="1260" width="920" x="180" y="120" as="geometry" />
         </mxCell>
@@ -975,7 +978,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-360" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Dodawanie subskybcji i platnosci do niej/karry" vertex="1">
-          <mxGeometry height="30" width="150" x="3590" y="70" as="geometry" />
+          <mxGeometry height="30" width="150" x="3880" y="70" as="geometry" />
         </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-6" edge="1" parent="1" source="v4ep8orMs9STYvKT7U5V-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="v4ep8orMs9STYvKT7U5V-28">
           <mxGeometry relative="1" as="geometry" />
@@ -1792,6 +1795,9 @@
             <mxPoint x="2979.630434782609" y="530" as="sourcePoint" />
             <mxPoint x="3429.5" y="530" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-390" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="LOGOWANIE" vertex="1">
+          <mxGeometry height="30" width="140" x="3150" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
