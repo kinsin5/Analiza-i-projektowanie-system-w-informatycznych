@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Strona-1" id="JiKPavWrz_IBVfGSq2Sb">
-    <mxGraphModel dx="1005" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -990,7 +990,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-366" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":LoggedUser" vertex="1">
-          <mxGeometry height="300" width="100" x="3380" y="125" as="geometry" />
+          <mxGeometry height="595" width="100" x="3380" y="125" as="geometry" />
         </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-10" edge="1" parent="1" source="v4ep8orMs9STYvKT7U5V-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v4ep8orMs9STYvKT7U5V-30">
           <mxGeometry relative="1" as="geometry" />
@@ -1012,8 +1012,8 @@
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-373" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
           <mxGeometry relative="1" width="80" as="geometry">
-            <mxPoint x="2980.0014285714283" y="430" as="sourcePoint" />
-            <mxPoint x="3210.43" y="430" as="targetPoint" />
+            <mxPoint x="2980.0014285714283" y="460" as="sourcePoint" />
+            <mxPoint x="3210.43" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-13" edge="1" parent="1" source="v4ep8orMs9STYvKT7U5V-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v4ep8orMs9STYvKT7U5V-32">
@@ -1743,7 +1743,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-375" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Weryfikacja&amp;nbsp;&lt;div&gt;poprawności kodu&lt;/div&gt;&lt;div&gt;TOTP&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="170" x="3005" y="385" as="geometry" />
+          <mxGeometry height="40" width="170" x="3005" y="420" as="geometry" />
         </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-197" edge="1" parent="1" source="RIZfZns36iC6wYRXqtyi-358" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.411;exitY=0.476;exitDx=0;exitDy=0;exitPerimeter=0;" target="RIZfZns36iC6wYRXqtyi-357" value="">
           <mxGeometry relative="1" width="80" as="geometry">
@@ -1755,7 +1755,16 @@
           <mxGeometry height="20" width="130" x="2829" y="380" as="geometry" />
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-376" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
-          <mxGeometry height="190" width="300" x="2940" y="380" as="geometry" />
+          <mxGeometry height="120" width="560" x="3010" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-379" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="560" x="3010" y="546" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-380" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[autoryzacja]" vertex="1">
+          <mxGeometry height="30" width="120" x="3060" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-381" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="brak autoryzacji" vertex="1">
+          <mxGeometry height="30" width="120" x="3060" y="580" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
