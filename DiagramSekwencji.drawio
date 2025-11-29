@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Strona-1" id="JiKPavWrz_IBVfGSq2Sb">
-    <mxGraphModel dx="1005" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="861" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -969,7 +969,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-365" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sprawdz login i haslo" vertex="1">
-          <mxGeometry height="30" width="120" x="3040" y="260" as="geometry" />
+          <mxGeometry height="30" width="120" x="3030" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-366" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":LoggedUser" vertex="1">
+          <mxGeometry height="300" width="100" x="3380" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-367" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="return">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3190" y="500" as="sourcePoint" />
+            <mxPoint x="3020" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-368" edge="1" parent="1" source="RIZfZns36iC6wYRXqtyi-361" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="3160" y="340" as="sourcePoint" />
+            <mxPoint x="2979.0714285714284" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-369" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Potwierdz login i haslo" vertex="1">
+          <mxGeometry height="30" width="120" x="3030" y="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
