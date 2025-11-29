@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Strona-1" id="JiKPavWrz_IBVfGSq2Sb">
-    <mxGraphModel dx="1375" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1508" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -937,13 +937,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-357" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};size=70;" value=":User" vertex="1">
-          <mxGeometry height="300" width="100" x="2930" y="140" as="geometry" />
+          <mxGeometry height="300" width="100" x="2930" y="130" as="geometry" />
         </mxCell>
         <mxCell id="RIZfZns36iC6wYRXqtyi-358" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
           <mxGeometry height="300" width="20" x="2800" y="140" as="geometry" />
         </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Wprowadź login i hasło" vertex="1">
-          <mxGeometry height="30" width="120" x="2850" y="90" as="geometry" />
+          <mxGeometry height="30" width="120" x="2835" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-359" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="RIZfZns36iC6wYRXqtyi-357" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="2810" y="250" as="sourcePoint" />
+            <mxPoint x="2890" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-360" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Dodawanie subskybcji i platnosci do niej/karry" vertex="1">
+          <mxGeometry height="30" width="150" x="3590" y="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
