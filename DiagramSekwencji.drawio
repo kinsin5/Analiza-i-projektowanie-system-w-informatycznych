@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="Strona-1" id="JiKPavWrz_IBVfGSq2Sb">
-    <mxGraphModel dx="833" dy="455" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="861" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1016,8 +1016,17 @@
         <mxCell id="RIZfZns36iC6wYRXqtyi-369" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Potwierdz login i haslo" vertex="1">
           <mxGeometry height="30" width="120" x="3030" y="310" as="geometry" />
         </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-373" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="RIZfZns36iC6wYRXqtyi-361" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="2979.0714285714284" y="400" as="sourcePoint" />
+            <mxPoint x="3130" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-13" edge="1" parent="1" source="v4ep8orMs9STYvKT7U5V-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="v4ep8orMs9STYvKT7U5V-32">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RIZfZns36iC6wYRXqtyi-374" parent="1" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" value="Weryfikacja&amp;nbsp;&lt;div&gt;poprawności kodu&lt;/div&gt;&lt;div&gt;TOTP&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="170" x="3190" y="410" as="geometry" />
         </mxCell>
         <mxCell id="v4ep8orMs9STYvKT7U5V-14" edge="1" parent="1" source="v4ep8orMs9STYvKT7U5V-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="v4ep8orMs9STYvKT7U5V-33">
           <mxGeometry relative="1" as="geometry" />
